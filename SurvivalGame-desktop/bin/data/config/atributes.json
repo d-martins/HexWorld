@@ -1,0 +1,35 @@
+{
+	"str":{
+		"0":{"atk":0 , "cap":5},
+		"1":{"atk":0 , "cap":10},
+		"2":{"atk":1 , "cap":15},
+		"3":{"atk":2 , "cap":20},
+		"4":{"atk":2 , "cap":25},
+		"5":{"atk":3 , "cap":30},
+		"6":{"atk":3 , "cap":35},
+		"7":{"atk":4 , "cap":40},
+		"8":{"atk":4 , "cap":50}
+	},
+	"end":{
+		"0":{"health":3  , "low":3 , "med":9 , "energy":10},
+		"1":{"health":3  , "low":2 , "med":8 , "energy":10},
+		"2":{"health":4  , "low":2 , "med":7 , "energy":10},
+		"3":{"health":4 , "low":1 , "med":5 , "energy":10},
+		"4":{"health":5 , "low":1 , "med":5 , "energy":10},
+		"5":{"health":5 , "low":0 , "med":5 , "energy":10},
+		"6":{"health":6 , "low":0 , "med":5 , "energy":10},
+		"7":{"health":6 , "low":0 , "med":4 , "energy":10},
+		"8":{"health":7 , "low":-1, "med":4 , "energy":10}
+	},
+	"int":{
+		"0":{"oil":0 , "fov":1},
+		"1":{"oil":0 , "fov":1},
+		"2":{"oil":0 , "fov":2},
+		"3":{"oil":1 , "fov":2},
+		"4":{"oil":2 , "fov":3},
+		"5":{"oil":3 , "fov":3},
+		"6":{"oil":4 , "fov":4},
+		"7":{"oil":5 , "fov":4},
+		"8":{"oil":6 , "fov":5}
+	}	
+}

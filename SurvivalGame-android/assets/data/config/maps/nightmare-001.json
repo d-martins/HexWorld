@@ -1,0 +1,23 @@
+{
+	baseMap: nightmare,
+	rows: 7,
+	columns: 3,
+	tiles: [
+		{type: plain, 		code: plain-002, 	 x: 0,	 y: 0},
+		{type: plain, 		code: plain-002, 	 x: 0, 	 y: 1},
+		{type: plain,		code: plain-002,	 x: 0, 	 y: 2},
+		{type: plain, 		code: end-001,		 x: 0, 	 y: 3, isObjective: true},
+		{type: plain,		code: plain-002,	 x: 0, 	 y: 4},
+		{type: plain, 		code: plain-002, 	 x: 0,	 y: 5},
+		{type: plain,		code: plain-002, 	 x: 0, 	 y: 6},
+		{type: plain,		code: plain-002, 	 x: 1, 	 y: 0},
+		{type: plain,		code: plain-002, 	 x: 1, 	 y: 1},
+		{type: plain,		code: plain-002, 	 x: 1, 	 y: 2},
+		{type: plain,		code: plain-002, 	 x: 1, 	 y: 3},
+		{type: plain,		code: plain-002, 	 x: 1, 	 y: 4},
+		{type: plain,		code: plain-002, 	 x: 1, 	 y: 5},
+		{type: plain,		code: start-001, 	 x: 1, 	 y: 6, isStart: true},
+		{type: plain,		code: plain-002, 	 x: 2, 	 y: 0},
+		{type: plain,		code: plain-002, 	 x: 2, 	 y: 1}
+	]
+}

@@ -1,0 +1,18 @@
+{
+"maps":[
+	{	
+		"type": "EASY",
+		"tiles": [
+			{"type":"PLAIN","q": 0, "r": 0},
+			{"type":"SAND","q": 0, "r": -1},
+			{"type":"DIRT","q": 0, "r": 1},
+			{"type":"FOREST","q": 1, "r": 0},
+			{"type":"RIVER","q": 1, "r": -1},
+			{"type":"SWAMP","q": -1, "r": 0},
+			{"type":"HILL","q": -1, "r": 1},
+			{"type":"SHELTER","q": 2, "r": 0},
+			{"type":"PLAIN","q": 2, "r": -1},
+		 ]
+	}
+]
+}

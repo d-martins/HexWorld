@@ -1,0 +1,95 @@
+[
+		{
+			"type":					"plain"	,
+			"moveCost":				1		,
+			"fovBlock":				0		,
+			"spawnMod":				0.0		,
+			"fieldOfViewMod":		0		,
+			"foodConsumptionMod":	0		,			
+			"baseMaterials":		50		,
+			"exploreMod":			0.0		,	
+			"defenseBonus":			0		,
+			"attackBonus":			0		,
+			"maxMaterials":			20		,
+			"materialRecoveryRate":	1		,
+			"canCamp":				true	
+		},
+		{
+			"type":					"recharger"	,
+			"moveCost":				2			,
+			"fovBlock":				0			,
+			"spawnMod":				0.1			,
+			"fieldOfViewMod":		-1			,
+			"foodConsumptionMod":	-2			,			
+			"baseMaterials":		0			,
+			"exploreMod":			0.0			,	
+			"defenseBonus":			-1			,
+			"attackBonus":			0			,
+			"maxMaterials":			0			,
+			"materialRecoveryRate":	0			,
+			"canCamp":				false		
+		}
+		,
+		{
+			"type":					"database"	,
+			"moveCost":				1			,
+			"fovBlock":				3			,
+			"spawnMod":				0.0			,
+			"fieldOfViewMod":		-1			,
+			"foodConsumptionMod":	0			,			
+			"baseMaterials":		50			,
+			"exploreMod":			5			,	
+			"defenseBonus":			-1			,
+			"attackBonus":			0			,
+			"maxMaterials":			150			,
+			"materialRecoveryRate":	5			,
+			"canCamp":				false
+		}
+		,
+		{
+			"type":					"firewall"	,
+			"moveCost":				3			,
+			"fovBlock":				10			,
+			"spawnMod":				0.2			,
+			"fieldOfViewMod":		2			,
+			"foodConsumptionMod":	3			,			
+			"baseMaterials":		60			,
+			"exploreMod":			2			,	
+			"defenseBonus":			-1			,
+			"attackBonus":			-1			,
+			"maxMaterials":			50			,
+			"materialRecoveryRate":	3			,
+			"canCamp":				false
+		}
+		,
+		{
+			"type":					"busted",
+			"moveCost":				1		,
+			"fovBlock":				1		,
+			"spawnMod":				-0.1	,
+			"fieldOfViewMod":		0		,
+			"foodConsumptionMod":	0		,			
+			"baseMaterials":		50		,
+			"exploreMod":			2		,	
+			"defenseBonus":			0		,
+			"attackBonus":			0		,
+			"maxMaterials":			150		,
+			"materialRecoveryRate":	3		,
+			"canCamp":				true
+		},
+		{
+			"type":					"infected"	,
+			"moveCost":				2			,
+			"fovBlock":				0			,
+			"spawnMod":				0.1			,
+			"fieldOfViewMod":		1			,
+			"foodConsumptionMod":	-1			,			
+			"baseMaterials":		30			,
+			"exploreMod":			5			,	
+			"defenseBonus":			1			,
+			"attackBonus":			1			,
+			"maxMaterials":			60			,	
+			"materialRecoveryRate":	3			,
+			"canCamp":				true		
+		}
+]	

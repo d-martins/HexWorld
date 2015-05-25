@@ -1,0 +1,82 @@
+{
+	com.badlogic.gdx.graphics.g2d.BitmapFont: { 
+		default-font: { file: default.fnt }, 
+		short-font:{file: airstrip.fnt}, 
+		short-small:{file: airstrip-small.fnt}
+		},
+	com.badlogic.gdx.graphics.Color: {
+		green: { a: 1, b: 0, g: 1, r: 0 },
+		white: { a: 1, b: 1, g: 1, r: 1 },
+		red: { a: 1, b: 0, g: 0, r: 1 },
+		black: { a: 1, b: 0, g: 0, r: 0 },
+		gray: {a: 1, b: 0.3, g: 0.3, r: 0.3},
+		grayish:{a:1, b:0.6, g:0.6, r:0.6},
+		yellow:{a:0.6, b:0, g:1, r:1}
+		},
+	com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+		default: { down: button-rnd, up: button-rnd, disabled:button-rnd-gry, font: short-font, fontColor: white, disabledFontColor:gray },
+		empty: {font: short-font, fontColor: white },
+		green: { down:button-rnd-grn, up: button-rnd-grn,disabled:button-rnd-gry, font: short-font, fontColor: white, disabledFontColor:gray },
+		orange: { down:button-rnd-org, up: button-rnd-org, disabled:button-rnd-gry,font: short-font, fontColor: white, disabledFontColor:gray },
+		blue: { down:button-rnd-blu, up: button-rnd-blu,disabled:button-rnd-gry, font: short-font, fontColor: white, disabledFontColor:gray },
+		red: { down:button-rnd-red, up: button-rnd-red,disabled:button-rnd-gry, font: short-font, fontColor: white, disabledFontColor:gray },
+		chipped: {down:pane-chipped-dsb, up: pane-chipped-dsb, disabled:pane-chipped, font: short-font, fontColor: grayish, disabledFontColor:white },
+		chipped-inv: {down:pane-chipped-inv-dsb, up: pane-chipped-inv-dsb, disabled:pane-chipped-inv, font: short-font, fontColor: grayish, disabledFontColor:white },
+		chipped-enabled: {down:pane-chipped, up: pane-chipped, disabled:pane-chipped-dsb, font: short-font, fontColor:white , disabledFontColor:grayish },
+		chipped-enabled-inv: {down:pane-chipped-inv, up: pane-chipped-inv, disabled:pane-chipped-inv-dsb, font: short-font, fontColor:white , disabledFontColor:grayish },
+		pane: {down:pane, up: pane, disabled:pane, font: short-font, fontColor: white, disabledFontColor:white },
+		square: {up: button-tlr-grey, disabled: button-tlr-red, font: short-font, fontColor:grayish, disabledFontColor:white},
+		points: {up: pnt-gry, font: short-font, fontColor: yellow}
+		},
+	com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+		default: { down: pane, up: pane},
+		empty:{},
+		pane: { down: pane, up: pane},
+		pane-grey:{up: pane-all-grey},
+		pane-greyish:{up: pane-all-greyish},
+		border-top: { down: pane-topB, up: pane-topB},
+		border-all:{up: pnt-gry },
+		bar-bg: {up: bar-bg},
+		bar-fill: {up: bar-fill},
+		item: { up: button-rnd-red-all, disabled: button-rnd-sel-all},
+		item-has: {up: button-ylw-grn-all, disabled: button-ylw-grn-sel},
+		item-equip: {up: button-rnd-grn-sel, disabled: button-rnd-grn-all }
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+		default: { down: button-rnd, up: button-rnd},
+		toggle: { down: button-rnd, checked: button-rnd, up: button-rnd},
+		health: {up: health-bar},
+		bar: {up: bar-fill},
+		close: {up: button-cross}
+		},
+	com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+		default: { font: default-font, fontColor: white },
+		short: { font: short-font, fontColor:white},
+		short-small:{font: short-small, fontColor: white}
+		},
+	com.badlogic.gdx.scenes.scene2d.ui.ImageTextButton$ImageTextButtonStyle: {
+		default: {font:short-font, fontColor: white}
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.ProgressBar$ProgressBarStyle: {
+		default-horizontal: {background:pane, knob:pane},
+		health: {background: health-bar, knobAfter: bar-fill, knob: knob},
+		energy: {background: energy-bar, knobAfter: bar-fill, knob: knob},
+		data: {background: data-bar, knobAfter: bar-fill, knob: knob  }
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.Slider$SliderStyle: {
+		default: {background:pane, knob:pane},
+		health: {background: health-bar,  knob: bar-fill},
+		energy: {background: energy-bar,  knob: bar-fill},
+		data: {background: data-bar, knob: bar-fill  }
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle: {
+		default: { background: pane-all-greyish, font: short-font, fontColor: white}
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle:{
+		default: {background: pane-all-greyish},
+		pane-grey: {background: pane-all-greyish}
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle:{
+		default:{titleFont: short-font, background: pane-all-grey, stageBackground: overlay}
+	}
+}

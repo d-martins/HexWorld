@@ -1,0 +1,283 @@
+
+sides.png
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+plain-001
+  rotate: false
+  xy: 1, 1596
+  size: 1866, 445
+  orig: 1866, 445
+  offset: 0, 0
+  index: -1
+button
+  rotate: false
+  xy: 1869, 1939
+  size: 101, 102
+  orig: 101, 102
+  offset: 0, 0
+  index: -1
+dTarget
+  rotate: false
+  xy: 1972, 1972
+  size: 69, 69
+  orig: 69, 69
+  offset: 0, 0
+  index: -1
+aTarget
+  rotate: false
+  xy: 1869, 1845
+  size: 92, 92
+  orig: 132, 132
+  offset: 0, 40
+  index: -1
+neutral-003
+  rotate: false
+  xy: 1, 1111
+  size: 358, 483
+  orig: 512, 512
+  offset: 77, 29
+  index: -1
+neutral-004
+  rotate: false
+  xy: 1, 626
+  size: 358, 483
+  orig: 512, 512
+  offset: 77, 29
+  index: -1
+neutral-002
+  rotate: false
+  xy: 1, 141
+  size: 286, 483
+  orig: 512, 512
+  offset: 149, 29
+  index: -1
+battle
+  rotate: false
+  xy: 1, 24
+  size: 436, 115
+  orig: 458, 144
+  offset: 6, 25
+  index: -1
+neutral-001
+  rotate: false
+  xy: 289, 141
+  size: 262, 483
+  orig: 512, 512
+  offset: 149, 29
+  index: -1
+bar
+  rotate: false
+  xy: 439, 76
+  size: 477, 63
+  orig: 477, 63
+  offset: 0, 0
+  index: -1
+healthBar-bg
+  rotate: false
+  xy: 439, 33
+  size: 314, 41
+  orig: 314, 41
+  offset: 0, 0
+  index: -1
+armorBar
+  rotate: false
+  xy: 439, 1
+  size: 267, 30
+  orig: 267, 30
+  offset: 0, 0
+  index: -1
+healthBar
+  rotate: false
+  xy: 708, 1
+  size: 267, 30
+  orig: 267, 30
+  offset: 0, 0
+  index: -1
+player-002
+  rotate: false
+  xy: 361, 1123
+  size: 316, 471
+  orig: 512, 512
+  offset: 82, 27
+  index: -1
+player-003
+  rotate: false
+  xy: 361, 664
+  size: 314, 457
+  orig: 512, 512
+  offset: 84, 27
+  index: -1
+berserker-004
+  rotate: false
+  xy: 553, 206
+  size: 504, 456
+  orig: 512, 512
+  offset: 4, 28
+  index: -1
+player-001
+  rotate: false
+  xy: 677, 672
+  size: 290, 449
+  orig: 512, 512
+  offset: 114, 27
+  index: -1
+scared-003
+  rotate: false
+  xy: 679, 1158
+  size: 336, 436
+  orig: 512, 512
+  offset: 99, 38
+  index: -1
+scared-004
+  rotate: false
+  xy: 969, 720
+  size: 314, 436
+  orig: 512, 512
+  offset: 99, 38
+  index: -1
+player-004
+  rotate: false
+  xy: 1017, 1175
+  size: 266, 419
+  orig: 512, 512
+  offset: 132, 27
+  index: -1
+scavenger-004
+  rotate: false
+  xy: 1285, 1231
+  size: 508, 363
+  orig: 512, 512
+  offset: 2, 31
+  index: -1
+scared-002
+  rotate: false
+  xy: 1795, 1188
+  size: 240, 406
+  orig: 512, 512
+  offset: 99, 36
+  index: -1
+berserker-002
+  rotate: false
+  xy: 1285, 882
+  size: 504, 347
+  orig: 512, 512
+  offset: 4, 28
+  index: -1
+scared-001
+  rotate: false
+  xy: 1791, 789
+  size: 240, 397
+  orig: 512, 512
+  offset: 99, 36
+  index: -1
+berserker-003
+  rotate: false
+  xy: 1285, 533
+  size: 504, 347
+  orig: 512, 512
+  offset: 4, 28
+  index: -1
+scared-000
+  rotate: false
+  xy: 1791, 398
+  size: 240, 389
+  orig: 512, 512
+  offset: 99, 36
+  index: -1
+assassin-004
+  rotate: false
+  xy: 1059, 1
+  size: 330, 395
+  orig: 512, 512
+  offset: 97, 30
+  index: -1
+assassin-003
+  rotate: false
+  xy: 1391, 9
+  size: 325, 387
+  orig: 512, 512
+  offset: 97, 30
+  index: -1
+assassin-001
+  rotate: false
+  xy: 1718, 9
+  size: 320, 387
+  orig: 512, 512
+  offset: 102, 30
+  index: -1
+
+sides2.png
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+scavenger-003
+  rotate: false
+  xy: 1, 431
+  size: 473, 363
+  orig: 512, 512
+  offset: 37, 31
+  index: -1
+scavenger-002
+  rotate: false
+  xy: 1, 93
+  size: 461, 336
+  orig: 512, 512
+  offset: 49, 31
+  index: -1
+berserker-001
+  rotate: false
+  xy: 476, 447
+  size: 425, 347
+  orig: 512, 512
+  offset: 83, 28
+  index: -1
+berserker-000
+  rotate: false
+  xy: 903, 447
+  size: 416, 347
+  orig: 512, 512
+  offset: 92, 28
+  index: -1
+scavenger-001
+  rotate: false
+  xy: 1321, 458
+  size: 405, 336
+  orig: 512, 512
+  offset: 55, 31
+  index: -1
+shield
+  rotate: false
+  xy: 1728, 409
+  size: 275, 385
+  orig: 385, 385
+  offset: 110, 0
+  index: -1
+scavenger-000
+  rotate: false
+  xy: 476, 109
+  size: 399, 336
+  orig: 512, 512
+  offset: 55, 31
+  index: -1
+assassin-000
+  rotate: false
+  xy: 877, 59
+  size: 320, 386
+  orig: 512, 512
+  offset: 102, 30
+  index: -1
+assassin-002
+  rotate: false
+  xy: 1199, 58
+  size: 320, 387
+  orig: 512, 512
+  offset: 102, 30
+  index: -1
+neutral-000
+  rotate: false
+  xy: 1521, 1
+  size: 262, 406
+  orig: 512, 512
+  offset: 149, 29
+  index: -1

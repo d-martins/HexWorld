@@ -1,0 +1,5 @@
+{
+	default: strings-en.json,
+	en: strings-en.json,
+	pt: strings-pt.json
+}

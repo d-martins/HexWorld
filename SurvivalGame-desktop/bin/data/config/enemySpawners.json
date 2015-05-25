@@ -1,0 +1,31 @@
+{
+	light-1:{ keyTurns: [1, 5, 10 ,15], minPlayerDistance: [7,6,5,4], maxPlayerDistance: [8,7,6,5], maxEnemies: [5,10,15,20], spawnPerTurn:[2,3,4,4], nightSpawns:[1,1,2,3], 
+				enemyTypes: [assassin-001, berserker-001, neutral-001, scared-001, scavenger-001]},
+			
+	light-2: {keyTurns: [1, 5, 10 ,15], minPlayerDistance: [7,6,5,4], maxPlayerDistance: [8,7,6,5], maxEnemies: [5,10,15,20], spawnPerTurn:[2,3,4,4], nightSpawns:[1,1,2,3], 
+				enemyTypes: [assassin-002, berserker-002, neutral-002, scared-002, scavenger-002]},
+			
+	light-3: {keyTurns: [1, 5, 10 ,15], minPlayerDistance: [7,6,5,4], maxPlayerDistance: [8,7,6,5], maxEnemies: [5,10,15,20], spawnPerTurn:[2,3,4,4], nightSpawns:[1,1,2,3], 
+				enemyTypes: [assassin-003, berserker-003, neutral-003, scared-003, scavenger-003]},
+			
+	light-4: {keyTurns: [1, 5, 10 ,15], minPlayerDistance: [7,6,5,4], maxPlayerDistance: [8,7,6,5], maxEnemies: [5,10,15,20], spawnPerTurn:[2,3,4,4], nightSpawns:[1,1,2,3], 
+				enemyTypes: [assassin-004, berserker-004, neutral-004, scared-004, scavenger-004]},
+			
+	light-5: {keyTurns: [1, 5, 10 ,15], minPlayerDistance: [7,6,5,4], maxPlayerDistance: [8,7,6,5], maxEnemies: [5,10,15,20], spawnPerTurn:[2,3,4,4], nightSpawns:[1,1,2,3], 
+				enemyTypes: [assassin-004, berserker-004, neutral-004, scared-004, scavenger-004]},
+				
+	hard-1: {keyTurns: [1, 5, 12], minPlayerDistance: [6,5,5], maxPlayerDistance: [7,6,5], maxEnemies: [5,6,7], spawnPerTurn:[1,2,3], nightSpawns:[1,1,2,3], 
+				enemyTypes: [assassin-001, berserker-001]},
+			
+	hard-2: {keyTurns: [1, 5, 10], minPlayerDistance: [6,5,5], maxPlayerDistance: [7,6,5], maxEnemies: [5,6,7], spawnPerTurn:[1,2,3], nightSpawns:[1,1,2,3], 
+				enemyTypes: [assassin-002, berserker-002]},
+			
+	hard-3: {keyTurns: [1, 5, 10], minPlayerDistance: [6,5,5], maxPlayerDistance: [7,6,5], maxEnemies: [5,6,7], spawnPerTurn:[1,2,4], nightSpawns:[1,1,2,3], 
+				enemyTypes: [assassin-003, berserker-003]},
+
+	hard-4: {keyTurns: [1, 5, 8], minPlayerDistance: [6,5,5], maxPlayerDistance: [7,6,5], maxEnemies: [5,6,7], spawnPerTurn:[1,2,4], nightSpawns:[1,1,2,3], 
+				enemyTypes: [assassin-004, berserker-004]},
+			
+	hard-5: {keyTurns: [1, 5, 8], minPlayerDistance: [6,5,4], maxPlayerDistance: [6,5,4], maxEnemies: [5,6,8], spawnPerTurn:[2,4,4], nightSpawns:[1,1,2,3], 
+				enemyTypes: [assassin-004, berserker-004]}
+}

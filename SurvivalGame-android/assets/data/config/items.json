@@ -1,0 +1,54 @@
+{
+	"weapons":[
+		{"name":"wpn_001" , "attack":0 , "damage":0 , "duration":0.5 , "cost":10},
+		{"name":"wpn_002" , "attack":1 , "damage":0 , "duration":0.0 , "cost":15},
+		{"name":"wpn_003" , "attack":1 , "damage":0 , "duration":0.5 , "cost":20},
+		{"name":"wpn_004" , "attack":0 , "damage":1 , "duration":0.0 , "cost":20},
+		{"name":"wpn_005" , "attack":0 , "damage":1 , "duration":0.5 , "cost":25},
+		{"name":"wpn_006" , "attack":1 , "damage":1 , "duration":0.0 , "cost":30},
+		{"name":"wpn_007" , "attack":0 , "damage":2 , "duration":0.5 , "cost":35},
+		{"name":"wpn_008" , "attack":0 , "damage":3 , "duration":0.0 , "cost":40},
+		{"name":"wpn_009" , "attack":2 , "damage":1 , "duration":0.5 , "cost":45},
+		{"name":"wpn_010" , "attack":1 , "damage":2 , "duration":0.0 , "cost":55},
+		{"name":"wpn_011" , "attack":3 , "damage":0 , "duration":0.0 , "cost":50},
+		{"name":"wpn_012" , "attack":1 , "damage":3 , "duration":0.0 , "cost":60},
+		{"name":"wpn_013" , "attack":2 , "damage":2 , "duration":0.5 , "cost":70},
+		{"name":"wpn_014" , "attack":3 , "damage":2 , "duration":0.0 , "cost":65},
+		{"name":"wpn_015" , "attack":2 , "damage":3 , "duration":0.0 , "cost":75},
+		{"name":"wpn_015" , "attack":3 , "damage":3 , "duration":0.0 , "cost":90}
+	],
+	"armor":[
+		{"name":"arm_001" , "armor":01 , "cost":10 },
+		{"name":"arm_002" , "armor":01 , "cost":15 , "effects":[{"name":"BATTLE_DEF_BONUS"}]},
+		{"name":"arm_003" , "armor":01 , "cost":20 , "effects":[{"name":"REST_OIL_COST_MOD"}]},
+		{"name":"arm_004" , "armor":02 , "cost":20 },
+		{"name":"arm_005" , "armor":02 , "cost":25 , "effects":[{"name":"EXPLORE_ENERGY_MOD"}]},
+		{"name":"arm_007" , "armor":02 , "cost":30 , "effects":[{"name":"REST_EXTRA_ENERGY"}]},
+		{"name":"arm_008" , "armor":02 , "cost":35 , "effects":[{"name":"EXPLORE_BONUS_OIL"}]},
+		{"name":"arm_009" , "armor":02 , "cost":30 , "effects":[{"name":"BATTLE_OIL_FOUND_MOD"}]},
+		{"name":"arm_010" , "armor":02 , "cost":30 },
+		{"name":"arm_011" , "armor":03 , "cost":35 },
+		{"name":"arm_012" , "armor":05 , "cost":40 , "effects":[{"name":"MOVE_ENERGY_MOD"}]},
+		{"name":"arm_013" , "armor":10 , "cost":50 , "effects":[{"name":"MOVE_ENERGY_MOD_2"}]}
+	],
+	"usables":[
+		{"name":"use_001" 	, "cost":10  , "effects":[{"name":"USE_RECOVER_LIFE"}	]},
+		{"name":"use_002" , "cost":35  , "effects":[{"name":"USE_RECOVER_ENERGY"}	]},
+		{"name":"use_006" 	, "cost":20  , "effects":[{"name":"USE_ADD_CAPACITY"}	]},
+		{"name":"use_007" 	, "cost":35  , "effects":[{"name":"USE_ADD_CAPACITY_2"}	]}
+	],	
+	"camp":[
+		{"name":"cmp_001" 			,"ttl":03, "cost":05 , "effects":[{"name":"CAMP_PLACE_FIRE"},
+														 {"name":"REST_EXTRA_ENERGY"}
+														]},
+		{"name":"cmp_002" 		, "cost":15 , "effects":[{"name":"CAMP_PLACE_CRATE"}]},
+		{"name":"cmp_003" 			, "cost":20 , "effects":[{"name":"CAMP_PLACE_TENT"},
+														 {"name":"REST_EXTRA_ENERGY"},
+														 {"name":"BATTLE_DEF_BONUS"}
+														]},
+		{"name":"cmp_004"		, "cost":25 , "effects":[{"name":"CAMP_PLACE_BARRICADE"},
+														 {"name":"BATTLE_DEF_BONUS"}
+														]},
+		{"name":"cmp_005"	, "cost":30 , "effects":[{"name":"CAMP_PLACE_WORKSTATION"}]}
+	]
+}

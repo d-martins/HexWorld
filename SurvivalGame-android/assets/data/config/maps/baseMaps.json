@@ -1,0 +1,17 @@
+{
+	balanced:{
+		level-1:{ dayDuration: 10, nightDuration: 10, enemySpawner: "light-1"},
+		level-2:{ dayDuration: 8, nightDuration: 12, enemySpawner: "light-2"},
+		level-3:{ dayDuration: 6, nightDuration: 14, enemySpawner: "light-3"},
+		level-4:{ dayDuration: 4, nightDuration: 16, enemySpawner: "light-4"},
+		level-5:{ dayDuration: 2, nightDuration: 18, enemySpawner: "light-5"}
+	},
+	nightmare:{
+		level-1:{ dayDuration: 5, nightDuration: 10, enemySpawner: "hard-1"},
+		level-2:{ dayDuration: 3, nightDuration: 12, enemySpawner: "hard-2"},
+		level-3:{ dayDuration: 1, nightDuration: 11, enemySpawner: "hard-3"},
+		level-4:{ dayDuration: 0, nightDuration: 15, enemySpawner: "hard-4"},
+		level-5:{ dayDuration: 0, nightDuration: 15, enemySpawner: "hard-5"}
+	}
+	
+}

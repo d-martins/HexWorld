@@ -1,0 +1,6 @@
+{
+	player-001: {name: "Paul" , str:7 , int:3 , end:4 },
+	player-002: {name: "Samson" , str:4 , int:7 , end:3 },
+	player-003: {name: "Jane" , str:3 , int:4 , end:7  },
+	player-004: {name: "Darby" , str:4 , int:4 , end:6 },
+}
